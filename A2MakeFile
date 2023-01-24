@@ -1,0 +1,17 @@
+# the compiler: gcc for C program, define as g++ for C++
+CC = gcc
+RM = rm
+# the build target executable:
+TARGET = A2
+
+all: A2
+	
+A2: A2.o list.o
+	$(CC) -o $(TARGET) A2.o list.o 
+A2.o: A2.c
+	$(CC) -c  A2.c 
+list.o: list.c list.h
+	$(CC) -c  list.c 
+clean:
+	$(RM) $(TARGET)
+	$(RM) *.o
