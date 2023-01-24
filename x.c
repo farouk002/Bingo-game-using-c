@@ -1,4 +1,4 @@
-//Farouk Kotob
+//Farouk Kotob 
 #include <stdio.h>
 
 int walk(int w1, int w2);

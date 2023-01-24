@@ -1,4 +1,4 @@
-//Farouk Kotob
+//Farouk Kotob 
 #include<stdio.h>
 #include"list.h"
 #include<stdlib.h>
